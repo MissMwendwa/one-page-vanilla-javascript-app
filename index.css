@@ -1,0 +1,37 @@
+body{
+    --nav-width: 20px;
+    margin: 0 0 0 var(--nav-with);
+    font-family: 'Quciksand', sans-serif;
+    font-size: 18px;
+}
+
+.nav{
+    position: fix;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    background: #22222222;
+}
+
+.nav__link{
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #eeeeeeee;
+    font-weight: 500;
+}
+
+.nav__link:hover{
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#app{
+    margin: 2em;
+    line-height: 1.5;
+    font-weight:500;
+}
+
+a{
+    color: #009579;
+}
